@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/TxReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/TxReg"
+            android:textSize="35sp"
+            android:layout_marginTop="60dp"
+            android:textStyle="bold"
+            android:textColor="@color/btn_reg_tx"
+            />
+
+
+
+        <Button
+            android:id="@+id/BtnRegNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BtnRegNumber"
+            android:textSize="20sp"
+            android:background="@color/btn_reg"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:textColor="@color/btn_reg_tx"
+            android:textStyle="bold"
+            android:onClick="RegAsNumber"
+            />
+
+
+
+        <Button
+            android:id="@+id/BtnRegEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BtnRegEmail"
+            android:textSize="20sp"
+            android:background="@color/btn_reg"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/btn_reg_tx"
+            android:textStyle="bold"
+            android:onClick="RegAsEmail"
+            />
+
+
+        <Button
+            android:id="@+id/BtnRegGuest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BtnRegGuest"
+            android:textSize="20sp"
+            android:background="@color/btn_reg"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/btn_reg_tx"
+            android:textStyle="bold"
+            android:onClick="RegAsGuest"
+            />
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
+
+
+

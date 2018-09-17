@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Mokhche</string>
+    <string name="TxReg">ورود یا ثبت نام</string>
+    <string name="BtnRegNumber">با شماره</string>
+    <string name="BtnRegEmail">با ایمیل</string>
+    <string name="BtnRegGuest">میهمان</string>
+    <string name="TxRegNumber">شماره خود را وارد کنید</string>
+    <string name="TxRegNumber_hint">0 9 _ _  _ _ _ _ _ _ _</string>
+    <string name="BtnRegNumber_GetCode">ثبت</string>
+    <string name="TxRegNumber_Final">کد ارسال شده را وارد کنید</string>
+    <string name="EdtRegNumber_Final">_  _  _  _  _</string>
+    <string name="BtnRegNumber_Final">ارسال کد</string>
+    <string name="TxRegEmail">ایمیل خود را وارد کنید</string>
+    <string name="TxRegEmail_1">Email :</string>
+    <string name="EdtRegEmail_1_hin">Inter Your Email</string>
+    <string name="EdtRegEmail_2_hin">Inter Your Password</string>
+    <string name="TxRegEmail_2">Pass :</string>
+    <string name="BtnRegEmail_1">ثبت</string>
+    <string name="SplashTx">مخچه</string>
+    <string name="Profile">Profile</string>
+    <string name="Operate">Operate</string>
+    <string name="Home">Home</string>
+    <string name="Contact">Contact</string>
+    <string name="Setting">Setting</string>
+
+
+
+</resources>

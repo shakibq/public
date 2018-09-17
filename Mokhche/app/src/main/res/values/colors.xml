@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#50d99b</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="btn_reg">#fff64b</color>
+    <color name="btn_reg_tx">#000000</color>
+    <color name="gray">#a9a9a9</color>
+    <color name="Splash">#df583a</color>
+    <color name="SplashTx">#ffffff</color>
+
+</resources>

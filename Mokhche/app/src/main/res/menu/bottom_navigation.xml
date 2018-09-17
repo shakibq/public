@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/Profile"
+        android:id="@+id/profile"
+        android:icon="@drawable/a" />
+
+    <item
+        android:title="@string/Operate"
+        android:id="@+id/operating"
+        android:icon="@drawable/b"
+
+        />
+
+
+    <item
+        android:title="@string/Home"
+        android:id="@+id/home"
+        android:icon="@drawable/c"/>
+
+    <item
+        android:title="@string/Contact"
+        android:id="@+id/contact"
+        android:icon="@drawable/d"/>
+
+    <item
+        android:title="@string/Setting"
+        android:id="@+id/setting"
+        android:icon="@drawable/e"/>
+
+
+</menu>

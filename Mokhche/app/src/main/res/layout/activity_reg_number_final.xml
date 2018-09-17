@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegNumberFinal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/TxRegNumber_Final"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/TxRegNumber_Final"
+            android:textSize="35sp"
+            android:layout_marginTop="60dp"
+            android:textStyle="bold"
+            android:textColor="@color/btn_reg_tx"
+            />
+
+
+        <EditText
+            android:id="@+id/EdtRegNumber_Final"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:hint="@string/EdtRegNumber_Final"
+            android:textSize="30sp"
+            android:maxLength="5"
+            />
+
+
+
+        <Button
+            android:id="@+id/BtnRegNumber_SendCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:text="@string/BtnRegNumber_Final"
+            android:background="@color/btn_reg"
+            android:onClick="RegAsNumber_SendCode"
+            />
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
